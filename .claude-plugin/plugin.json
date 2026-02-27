@@ -1,0 +1,10 @@
+{
+  "name": "ananta-cms",
+  "version": "1.0.0",
+  "description": "AI CMS for Ananta Yoga & Meditation website — manage content, deploy, and publish with natural language commands",
+  "author": "Ananta Yoga",
+  "skills": [
+    "skills/web-management",
+    "skills/web-content"
+  ]
+}
