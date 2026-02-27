@@ -1,0 +1,35 @@
+{
+  "days": [
+    {
+      "id": "day-mon",
+      "label": { "en": "Monday", "es": "Lunes" },
+      "items": [
+        { "en": "07:30 · Slow Vinyasa", "es": "07:30 · Vinyasa suave" },
+        { "en": "18:30 · Restorative + Nidra", "es": "18:30 · Restaurativo + Nidra" }
+      ]
+    },
+    {
+      "id": "day-wed",
+      "label": { "en": "Wednesday", "es": "Miércoles" },
+      "items": [
+        { "en": "07:00 · Sunrise Meditation", "es": "07:00 · Meditación al amanecer" },
+        { "en": "19:00 · Sound Bath", "es": "19:00 · Baño de sonido" }
+      ]
+    },
+    {
+      "id": "day-fri",
+      "label": { "en": "Friday", "es": "Viernes" },
+      "items": [
+        { "en": "18:00 · Yin + Breathwork", "es": "18:00 · Yin + Respiración consciente" }
+      ]
+    },
+    {
+      "id": "day-sun",
+      "label": { "en": "Sunday", "es": "Domingo" },
+      "items": [
+        { "en": "09:00 · Community Flow", "es": "09:00 · Flujo en comunidad" },
+        { "en": "17:00 · Stillness Circle", "es": "17:00 · Círculo de quietud" }
+      ]
+    }
+  ]
+}

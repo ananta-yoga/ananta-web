@@ -1,0 +1,19 @@
+{
+  "quotes": [
+    {
+      "id": "test-001",
+      "quote": { "en": "Ananta feels like exhaling after holding my breath for years. I arrive tense and leave remembering that I am already enough.", "es": "Ananta se siente como exhalar después de haber contenido la respiración durante años. Llego tensa y me voy recordando que ya soy suficiente." },
+      "name": "Maya"
+    },
+    {
+      "id": "test-002",
+      "quote": { "en": "The slow pacing, the warmth of the teachers, the sound journeys — everything is designed to calm my system, not overwhelm it.", "es": "El ritmo lento, la calidez de las maestras, los viajes de sonido — todo está diseñado para calmar mi sistema, no para sobrecargarlo." },
+      "name": "Jonas"
+    },
+    {
+      "id": "test-003",
+      "quote": { "en": "I had never practiced yoga before. From the first class I felt gently guided, never rushed, always respected.", "es": "Nunca había practicado yoga. Desde la primera clase me sentí acompañada con suavidad, sin prisa y siempre respetada." },
+      "name": "Elena"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "images": [
+    {
+      "id": "space-001",
+      "src": "https://pub-cdn.sider.ai/u/U0O9H23ZYYJ/web-coder/69a0db496178e33e683c25bd/resource/d2aa72eb-5458-4544-867c-4174710fbb1e.jpg",
+      "label": { "en": "The Studio", "es": "El Estudio" }
+    },
+    {
+      "id": "space-002",
+      "src": "https://pub-cdn.sider.ai/u/U0O9H23ZYYJ/web-coder/69a0db496178e33e683c25bd/resource/ec9bbee9-d7bd-4363-a3d8-e14fd22a3d00.jpg",
+      "label": { "en": "Meditation Garden", "es": "Jardín de Meditación" }
+    },
+    {
+      "id": "space-003",
+      "src": "https://pub-cdn.sider.ai/u/U0O9H23ZYYJ/web-coder/69a0db496178e33e683c25bd/resource/691acbb2-e06b-408c-a111-c3af20894058.jpg",
+      "label": { "en": "Sound Healing", "es": "Sanación con Sonido" }
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "events": [
+    {
+      "id": "evt-001",
+      "type": "Sound Bath",
+      "title": { "en": "New Moon Sound Journey", "es": "Viaje de Sonido de Luna Nueva" },
+      "description": { "en": "Crystal bowls, chimes, and soft live voice guide you through an evening of deep listening and release.", "es": "Cuencos de cristal, campanas y voz suave te guían en una noche de escucha profunda y liberación." },
+      "date": "2026-03-09",
+      "time": "19:30–21:00",
+      "place": "Ananta Studio",
+      "reserveLink": "https://wa.me/50672511368?text=I%20want%20to%20reserve%20New%20Moon%20Sound%20Journey"
+    },
+    {
+      "id": "evt-002",
+      "type": "Workshop",
+      "title": { "en": "Foundations of Gentle Yoga", "es": "Fundamentos de Yoga Suave" },
+      "description": { "en": "A welcoming introduction to alignment, props, and breath for those stepping onto the mat for the first time.", "es": "Una introducción acogedora a la alineación, los accesorios y la respiración para quienes pisan el tapete por primera vez." },
+      "date": "2026-03-23",
+      "time": "10:00–12:00",
+      "place": "Ananta Studio",
+      "reserveLink": "https://wa.me/50672511368?text=I%20want%20to%20reserve%20Foundations%20of%20Gentle%20Yoga"
+    },
+    {
+      "id": "evt-003",
+      "type": "Ceremony",
+      "title": { "en": "Restorative + Yoga Nidra Ceremony", "es": "Ceremonia Restaurativa + Yoga Nidra" },
+      "description": { "en": "Long-held, fully supported poses followed by guided Yoga Nidra to invite deep nervous-system repair.", "es": "Posturas sostenidas y completamente apoyadas seguidas de una sesión guiada de Yoga Nidra para invitar a una reparación profunda del sistema nervioso." },
+      "date": "2026-04-05",
+      "time": "18:00–20:00",
+      "place": "Ananta Studio",
+      "reserveLink": "https://wa.me/50672511368?text=I%20want%20to%20reserve%20Restorative%20Yoga%20Nidra%20Ceremony"
+    }
+  ]
+}

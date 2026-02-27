@@ -1,0 +1,13 @@
+{
+  "brandLine": { "en": "Ananta Yoga & Meditation", "es": "Ananta Yoga & Meditación" },
+  "brandTagline": { "en": "A sacred space for stillness, breath, and infinite return. Nestled in the city, rooted in ancient practice.", "es": "Un espacio sagrado para la quietud, la respiración y el regreso infinito. En el corazón de la ciudad, enraizado en la práctica ancestral." },
+  "visitLabel": { "en": "Visit the Studio", "es": "Visita el Estudio" },
+  "address": { "en": "123 Sacred Way · Your City", "es": "Calle Sagrada 123 · Tu Ciudad" },
+  "hours": { "en": "Weekdays 7:00–21:00 · Weekends 8:00–19:00", "es": "Lunes a viernes 7:00–21:00 · Fines de semana 8:00–19:00" },
+  "email": "hello@anantayoga.studio",
+  "whatsapp": "+50672511368",
+  "socialLinks": {
+    "instagram": "https://instagram.com/anantayoga",
+    "facebook": "https://facebook.com/anantayoga"
+  }
+}

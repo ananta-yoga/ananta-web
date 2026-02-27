@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "Dev Server",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["scripts/build.mjs"],
+      "port": 8000
+    }
+  ]
+}

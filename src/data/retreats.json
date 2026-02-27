@@ -1,0 +1,94 @@
+{
+  "retreats": [
+    {
+      "id": "ret-001",
+      "slug": "forest-light-retreat",
+      "name": { "en": "Forest Light Retreat", "es": "Retiro Luz del Bosque" },
+      "dates": { "en": "May 16–19, 2026", "es": "16–19 de mayo de 2026" },
+      "place": { "en": "Mountain Sanctuary · 2 hours from the city", "es": "Santuario de montaña · A 2 horas de la ciudad" },
+      "focus": { "en": "Restorative Yoga · Forest Bathing · Fire Circles", "es": "Yoga restaurativo · Baños de bosque · Círculos de fuego" },
+      "description": { "en": "Four days of soft movement, guided forest walks, and slow evenings by the fire. Designed for those carrying quiet exhaustion.", "es": "Cuatro días de movimiento suave, caminatas guiadas entre árboles y noches lentas junto al fuego. Diseñado para quienes cargan un cansancio silencioso." },
+      "price": "$899 USD",
+      "benefits": {
+        "en": ["Deep nervous system restoration", "Reconnection with nature", "Community building in sacred space", "Tools for ongoing self-care"],
+        "es": ["Restauración profunda del sistema nervioso", "Reconexión con la naturaleza", "Construcción de comunidad en espacio sagrado", "Herramientas para el autocuidado continuo"]
+      },
+      "includes": {
+        "en": ["3 nights accommodation", "All meals (plant-based)", "Daily yoga & meditation", "Sound healing sessions", "Forest bathing guides"],
+        "es": ["3 noches de alojamiento", "Todas las comidas (a base de plantas)", "Yoga y meditación diaria", "Sesiones de sanación con sonido", "Guías de baño de bosque"]
+      },
+      "activities": {
+        "en": ["Morning gentle yoga flow", "Guided forest meditation walks", "Evening fire ceremonies", "Sound bath under the stars", "Journaling & reflection circles"],
+        "es": ["Flujo de yoga suave por la mañana", "Caminatas de meditación guiada en el bosque", "Ceremonias de fuego por la noche", "Baño de sonido bajo las estrellas", "Círculos de escritura y reflexión"]
+      },
+      "tasks": {
+        "en": ["Arrive with an open heart", "Bring comfortable clothes", "Leave devices behind", "Prepare to rest deeply"],
+        "es": ["Llega con el corazón abierto", "Trae ropa cómoda", "Deja los dispositivos atrás", "Prepárate para descansar profundamente"]
+      },
+      "receiving": {
+        "en": "This retreat is an invitation to soften. To remember the rhythm of your breath, the warmth of the earth, the quiet joy of being held by a forest and a community that asks nothing of you except your presence.",
+        "es": "Este retiro es una invitación a suavizarte. A recordar el ritmo de tu respiración, la calidez de la tierra, la alegría silenciosa de ser sostenido/a por un bosque y una comunidad que no pide nada de ti excepto tu presencia."
+      }
+    },
+    {
+      "id": "ret-002",
+      "slug": "still-waters-meditation",
+      "name": { "en": "Still Waters Meditation Week", "es": "Semana de Meditación Aguas Tranquilas" },
+      "dates": { "en": "July 6–12, 2026", "es": "6–12 de julio de 2026" },
+      "place": { "en": "Lakeside Monastery Guesthouse", "es": "Casa de huéspedes en monasterio junto al lago" },
+      "focus": { "en": "Seated Practice · Noble Silence · Inquiry", "es": "Práctica sentada · Silencio noble · Indagación" },
+      "description": { "en": "A week of gentle silence supported by daily teachings, shared meals, and spacious time alone by the water.", "es": "Una semana de silencio amable acompañada de enseñanzas diarias, comidas compartidas y tiempo amplio a solas junto al agua." },
+      "price": "$1,200 USD",
+      "benefits": {
+        "en": ["Deepened meditation practice", "Inner clarity and stillness", "Freedom from digital overwhelm", "Lasting peace and presence"],
+        "es": ["Práctica de meditación profundizada", "Claridad interior y quietud", "Libertad del agobio digital", "Paz y presencia duraderas"]
+      },
+      "includes": {
+        "en": ["6 nights accommodation", "All meals (vegetarian)", "Daily meditation guidance", "Private reflection time", "Closing integration circle"],
+        "es": ["6 noches de alojamiento", "Todas las comidas (vegetarianas)", "Guía de meditación diaria", "Tiempo de reflexión privada", "Círculo de integración de cierre"]
+      },
+      "activities": {
+        "en": ["Dawn sitting meditation", "Walking meditation by the lake", "Dharma talks", "Silent meals in community", "Evening chanting"],
+        "es": ["Meditación sentada al amanecer", "Meditación caminando junto al lago", "Charlas de dharma", "Comidas en silencio en comunidad", "Canto vespertino"]
+      },
+      "tasks": {
+        "en": ["Commit to noble silence", "Bring a journal", "Release expectations", "Trust the process"],
+        "es": ["Comprométete con el silencio noble", "Trae un diario", "Suelta las expectativas", "Confía en el proceso"]
+      },
+      "receiving": {
+        "en": "In stillness, we discover that we are already whole. This week is not about becoming someone new — it is about remembering who you have always been beneath the noise.",
+        "es": "En la quietud, descubrimos que ya somos completos. Esta semana no se trata de convertirte en alguien nuevo — se trata de recordar quién has sido siempre debajo del ruido."
+      }
+    },
+    {
+      "id": "ret-003",
+      "slug": "sound-spirit-gathering",
+      "name": { "en": "Sound & Spirit Gathering", "es": "Encuentro Sonido & Espíritu" },
+      "dates": { "en": "September 20–22, 2026", "es": "20–22 de septiembre de 2026" },
+      "place": { "en": "Ananta Studio · City", "es": "Estudio Ananta · Ciudad" },
+      "focus": { "en": "Sound Journeys · Voice Exploration · Community Ritual", "es": "Viajes de sonido · Exploración de la voz · Ritual en comunidad" },
+      "description": { "en": "A long weekend in the studio exploring voice, vibration, and shared ritual through sound and song.", "es": "Un fin de semana largo en el estudio explorando la voz, la vibración y el ritual compartido a través del sonido y el canto." },
+      "price": "$450 USD",
+      "benefits": {
+        "en": ["Unlock your authentic voice", "Experience profound sound healing", "Connect with kindred spirits", "Learn to use sound as medicine"],
+        "es": ["Desbloquea tu voz auténtica", "Experimenta sanación profunda con sonido", "Conecta con espíritus afines", "Aprende a usar el sonido como medicina"]
+      },
+      "includes": {
+        "en": ["All workshops & ceremonies", "Meals & refreshments", "Sound healing instruments to explore", "Take-home practice guide"],
+        "es": ["Todos los talleres y ceremonias", "Comidas y refrigerios", "Instrumentos de sanación sonora para explorar", "Guía de práctica para llevar a casa"]
+      },
+      "activities": {
+        "en": ["Group sound bath", "Voice activation workshop", "Drum circle ceremony", "Sound meditation", "Closing community ritual"],
+        "es": ["Baño de sonido grupal", "Taller de activación de la voz", "Ceremonia de círculo de tambores", "Meditación con sonido", "Ritual comunitario de cierre"]
+      },
+      "tasks": {
+        "en": ["Come with curiosity", "No musical experience needed", "Wear comfortable layers", "Bring a water bottle"],
+        "es": ["Ven con curiosidad", "No se necesita experiencia musical", "Usa ropa cómoda en capas", "Trae una botella de agua"]
+      },
+      "receiving": {
+        "en": "Sound is the oldest medicine. In this gathering, we remember that our voices — raw, trembling, powerful — are instruments of healing, connection, and transformation.",
+        "es": "El sonido es la medicina más antigua. En este encuentro, recordamos que nuestras voces — crudas, temblorosas, poderosas — son instrumentos de sanación, conexión y transformación."
+      }
+    }
+  ]
+}
