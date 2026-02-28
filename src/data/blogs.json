@@ -8,22 +8,22 @@
       "date": "2026-02-28",
       "readingTime": { "en": "9 min read", "es": "Lectura de 9 min" },
       "heroImage": {
-        "src": "/images/blog/cacao-ceremony-hero.jpg",
+        "src": "./images/blog/cacao-ceremony-hero.jpg",
         "alt": { "en": "Ceremonial cacao beans and preparation", "es": "Granos de cacao ceremonial y preparación" }
       },
       "images": [
         {
-          "src": "/images/blog/cacao-pods.jpg",
+          "src": "./images/blog/cacao-pods.jpg",
           "alt": { "en": "Raw cacao pods — the sacred fruit", "es": "Vainas de cacao crudo — el fruto sagrado" },
           "caption": { "en": "Cacao pods: the sacred fruit the Maya called Ka'kau — heart blood.", "es": "Vainas de cacao: el fruto sagrado que los mayas llamaban Ka'kau — sangre del corazón." }
         },
         {
-          "src": "/images/blog/cacao-cup.jpg",
+          "src": "./images/blog/cacao-cup.jpg",
           "alt": { "en": "A warm cup of ceremonial cacao", "es": "Una taza caliente de cacao ceremonial" },
           "caption": { "en": "Ceremonial cacao, prepared with intention — a cup that opens the heart.", "es": "Cacao ceremonial, preparado con intención — una taza que abre el corazón." }
         },
         {
-          "src": "/images/blog/ceremony-setting.jpg",
+          "src": "./images/blog/ceremony-setting.jpg",
           "alt": { "en": "A sacred ceremony space with warm light", "es": "Un espacio sagrado de ceremonia con luz cálida" },
           "caption": { "en": "A safe, warm space where the heart can open and release.", "es": "Un espacio seguro y cálido donde el corazón puede abrirse y liberar." }
         }
