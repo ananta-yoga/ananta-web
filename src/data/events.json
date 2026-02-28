@@ -50,6 +50,17 @@
       "time": "18:00–20:00",
       "place": "Ananta Studio",
       "reserveLink": "https://wa.me/50672511368?text=I%20want%20to%20reserve%20Restorative%20Yoga%20Nidra%20Ceremony"
+    },
+    {
+      "id": "evt-sacred-sands-morocco-retreat",
+      "type": "Ceremony",
+      "title": { "en": "Sacred Sands · Morocco Yoga Retreat", "es": "Arenas Sagradas · Retiro de Yoga en Marruecos" },
+      "description": { "en": "Five nights between the Atlas Mountains and the Sahara. Daily yoga and meditation, sound healing ceremonies under desert stars, guided excursion into golden dunes, cultural immersion, and nourishing meals in a boutique riad. Only 10 souls. A journey inward, carried by ancient sand and infinite sky.", "es": "Cinco noches entre las montañas del Atlas y el Sahara. Yoga y meditación diaria, ceremonias de sanación sonora bajo las estrellas del desierto, excursión guiada hacia las dunas doradas, inmersión cultural y comidas nutritivas en un riad boutique. Solo 10 almas. Un viaje hacia adentro, sostenido por arena ancestral y cielo infinito." },
+      "date": "2026-11-08",
+      "time": "November 8–13, 2026",
+      "place": "Morocco — Between the Atlas Mountains and the Sahara",
+      "reserveLink": "https://wa.me/50672511368?text=I%20want%20to%20reserve%20Sacred%20Sands%20Morocco%20Yoga%20Retreat%20November%202026",
+      "blogLink": "/blog/sacred-sands-desert-yoga-morocco"
     }
   ]
 }
