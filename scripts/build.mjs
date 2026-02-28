@@ -3,6 +3,7 @@ import { rimraf } from 'rimraf'
 import stylePlugin from 'esbuild-style-plugin'
 import autoprefixer from 'autoprefixer'
 import tailwindcss from 'tailwindcss'
+import { cpSync, existsSync } from 'node:fs'
 
 const args = process.argv.slice(2)
 const isProd = args[0] === '--production'
@@ -39,6 +40,11 @@ const esbuildOpts = {
 
 if (isProd) {
   await esbuild.build(esbuildOpts)
+  // Copy public/ assets (images, etc.) into dist/
+  if (existsSync('public')) {
+    cpSync('public', 'dist', { recursive: true })
+    console.log('Copied public/ → dist/')
+  }
 } else {
   const ctx = await esbuild.context(esbuildOpts)
   await ctx.watch()
