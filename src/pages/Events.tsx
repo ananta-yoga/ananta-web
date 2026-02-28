@@ -4,6 +4,7 @@
  */
 
 import { useTranslation } from 'react-i18next'
+import { Link } from 'react-router'
 import eventsData from '../data/events.json'
 
 type Lang = 'en' | 'es'
@@ -35,7 +36,7 @@ export default function EventsPage() {
       <section className="bg-[#DCD7CD]">
         <div className="mx-auto max-w-6xl px-4 py-10 md:px-6 lg:px-8">
           <div className="space-y-4">
-            {eventsData.events.map((event) => (
+            {eventsData.events.map((event: any) => (
               <article
                 key={event.id}
                 className="rounded-2xl bg-[#F5F1E8] p-5 shadow-sm shadow-[#847668]/20 md:flex md:items-start md:justify-between"
@@ -48,8 +49,17 @@ export default function EventsPage() {
                     {event.title[lang]}
                   </h2>
                   <p className="mt-3 text-sm leading-relaxed text-[#3B3322]">
-                    {event.description[lang]}
+                    {event.description[lang].split(/\/blog\/\S+/)[0]}
                   </p>
+                  {event.blogLink && (
+                    <Link
+                      to={event.blogLink}
+                      className="mt-2 inline-flex items-center gap-1 text-xs font-medium text-[#6B7A52] transition-colors hover:text-[#2A441F]"
+                    >
+                      {lang === 'es' ? 'Leer más sobre esta ceremonia' : 'Read more about this ceremony'}
+                      <span aria-hidden="true">&rarr;</span>
+                    </Link>
+                  )}
                 </div>
                 <div className="mt-4 text-xs text-[#4A5C35] md:mt-0 md:text-right">
                   <p className="uppercase tracking-[0.2em]">{event.date}</p>

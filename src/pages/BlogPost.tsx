@@ -1,6 +1,7 @@
 /**
  * Blog post detail page — renders a full article from blogs.json.
  * Content is matched by URL slug parameter.
+ * Supports hero images, inline images, and simple markdown formatting.
  */
 
 import { useParams, Link } from 'react-router'
@@ -9,6 +10,12 @@ import blogsData from '../data/blogs.json'
 
 type Lang = 'en' | 'es'
 
+interface BlogImage {
+  src: string
+  alt: { en: string; es: string }
+  caption?: { en: string; es: string }
+}
+
 function useLang(): Lang {
   const { i18n } = useTranslation()
   return (i18n.language || 'en').startsWith('es') ? 'es' : 'en'
@@ -16,12 +23,37 @@ function useLang(): Lang {
 
 /**
  * Renders simple markdown-like text to React elements.
- * Supports **bold**, *italic*, and paragraph breaks via \n\n.
+ * Supports **bold**, *italic*, paragraph breaks via \n\n,
+ * and inline images via ![alt](src) syntax.
  */
-function renderContent(text: string) {
+function renderContent(text: string, images?: BlogImage[], lang: Lang = 'en') {
   const paragraphs = text.split('\n\n')
 
   return paragraphs.map((para, pIdx) => {
+    // Check for image placeholder pattern: {{image:index}}
+    const imageMatch = para.match(/^\{\{image:(\d+)\}\}$/)
+    if (imageMatch && images) {
+      const imgIndex = parseInt(imageMatch[1], 10)
+      const img = images[imgIndex]
+      if (img) {
+        return (
+          <figure key={`img-${pIdx}`} className="my-10">
+            <img
+              src={img.src}
+              alt={img.alt[lang]}
+              className="w-full rounded-xl object-cover shadow-md"
+              loading="lazy"
+            />
+            {img.caption && (
+              <figcaption className="mt-3 text-center text-xs italic text-[#6B7A52]">
+                {img.caption[lang]}
+              </figcaption>
+            )}
+          </figure>
+        )
+      }
+    }
+
     // Process inline formatting: **bold** and *italic*
     const parts: (string | JSX.Element)[] = []
     let remaining = para
@@ -81,7 +113,7 @@ export default function BlogPostPage() {
   const { slug } = useParams<{ slug: string }>()
   const lang = useLang()
 
-  const post = blogsData.posts.find((p) => p.slug === slug)
+  const post = blogsData.posts.find((p) => p.slug === slug) as any
 
   if (!post) {
     return (
@@ -115,6 +147,18 @@ export default function BlogPostPage() {
         {lang === 'es' ? 'Todos los artículos' : 'All articles'}
       </Link>
 
+      {/* Hero image */}
+      {post.heroImage && (
+        <div className="mb-10 overflow-hidden rounded-2xl">
+          <img
+            src={post.heroImage.src}
+            alt={post.heroImage.alt[lang]}
+            className="h-64 w-full object-cover md:h-80"
+            loading="eager"
+          />
+        </div>
+      )}
+
       {/* Header */}
       <header className="mb-10">
         <p className="mb-2 text-xs uppercase tracking-[0.22em] text-[#B29476]">
@@ -134,7 +178,7 @@ export default function BlogPostPage() {
       <div className="mb-10 h-px bg-[#B29476]/30" />
 
       {/* Article body */}
-      <div className="prose-ananta">{renderContent(post.content[lang])}</div>
+      <div className="prose-ananta">{renderContent(post.content[lang], post.images, lang)}</div>
 
       {/* Footer */}
       <div className="mt-14 border-t border-[#B29476]/30 pt-8 text-center">
