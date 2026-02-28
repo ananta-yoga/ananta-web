@@ -89,6 +89,36 @@
         "en": "Sound is the oldest medicine. In this gathering, we remember that our voices — raw, trembling, powerful — are instruments of healing, connection, and transformation.",
         "es": "El sonido es la medicina más antigua. En este encuentro, recordamos que nuestras voces — crudas, temblorosas, poderosas — son instrumentos de sanación, conexión y transformación."
       }
+    },
+    {
+      "id": "ret-004",
+      "slug": "sacred-sands-morocco",
+      "name": { "en": "Sacred Sands · Morocco Yoga Retreat", "es": "Arenas Sagradas · Retiro de Yoga en Marruecos" },
+      "dates": { "en": "November 8–13, 2026", "es": "8–13 de noviembre de 2026" },
+      "place": { "en": "Morocco · Between the Atlas Mountains and the Sahara", "es": "Marruecos · Entre las montañas del Atlas y el Sahara" },
+      "focus": { "en": "Yoga · Sound Healing · Desert Journeys · Cultural Immersion", "es": "Yoga · Sanación con Sonido · Viajes al Desierto · Inmersión Cultural" },
+      "description": { "en": "Five nights beneath Moroccan skies, where ancient desert silence meets the resonance of singing bowls. This intimate retreat for ten souls weaves daily yoga, sound healing ceremonies, and guided excursions into the ochre landscapes of Morocco — from the warmth of a traditional riad to the vast stillness of the Sahara dunes.\n\nDesigned for yoga enthusiasts ready to deepen their practice in an extraordinary setting, every moment is held with care: nourishing Moroccan cuisine, unhurried mornings on sunlit terraces, and evenings where the desert sky becomes your meditation hall.\n\nThis is not just a retreat — it is a pilgrimage to the quietest parts of yourself, carried by the wind, the sand, and the ancient rhythm of this sacred land.", "es": "Cinco noches bajo los cielos de Marruecos, donde el silencio ancestral del desierto se encuentra con la resonancia de los cuencos tibetanos. Este retiro íntimo para diez almas entrelaza yoga diario, ceremonias de sanación con sonido y excursiones guiadas por los paisajes ocres de Marruecos — desde la calidez de un riad tradicional hasta la vasta quietud de las dunas del Sahara.\n\nDiseñado para entusiastas del yoga que desean profundizar su práctica en un entorno extraordinario, cada momento está cuidado con esmero: cocina marroquí nutritiva, mañanas sin prisa en terrazas bañadas de sol, y noches donde el cielo del desierto se convierte en tu sala de meditación.\n\nEsto no es solo un retiro — es una peregrinación hacia las partes más silenciosas de ti mismo/a, llevada por el viento, la arena y el ritmo ancestral de esta tierra sagrada." },
+      "price": "$2,000 USD",
+      "benefits": {
+        "en": ["Profound deepening of your yoga and meditation practice", "Complete nervous system reset in nature's vastness", "Cultural connection with Morocco's ancient wisdom traditions", "Intimate community of ten like-minded souls", "Sound healing experiences amplified by desert acoustics", "Tools and practices to carry the stillness home"],
+        "es": ["Profundización profunda de tu práctica de yoga y meditación", "Reinicio completo del sistema nervioso en la inmensidad de la naturaleza", "Conexión cultural con las tradiciones de sabiduría ancestral de Marruecos", "Comunidad íntima de diez almas afines", "Experiencias de sanación con sonido amplificadas por la acústica del desierto", "Herramientas y prácticas para llevar la quietud a casa"]
+      },
+      "includes": {
+        "en": ["5 nights boutique riad accommodation", "All meals (traditional Moroccan cuisine)", "Daily yoga & meditation sessions", "Sound healing ceremonies", "Guided desert excursion to the Sahara dunes", "Cultural immersion experiences", "Airport transfers and local transport"],
+        "es": ["5 noches en riad boutique", "Todas las comidas (cocina tradicional marroquí)", "Sesiones diarias de yoga y meditación", "Ceremonias de sanación con sonido", "Excursión guiada al desierto y las dunas del Sahara", "Experiencias de inmersión cultural", "Traslados desde el aeropuerto y transporte local"]
+      },
+      "activities": {
+        "en": ["Sunrise yoga on the riad terrace", "Sound bath ceremonies with singing bowls", "Guided meditation in the Sahara dunes", "Traditional Moroccan hammam experience", "Sunset camel walk through the desert", "Evening tea ceremony and reflection circles", "Stargazing meditation under Saharan skies"],
+        "es": ["Yoga al amanecer en la terraza del riad", "Ceremonias de baño de sonido con cuencos tibetanos", "Meditación guiada en las dunas del Sahara", "Experiencia de hammam tradicional marroquí", "Caminata en camello al atardecer por el desierto", "Ceremonia del té y círculos de reflexión por la noche", "Meditación de observación de estrellas bajo cielos saharianos"]
+      },
+      "tasks": {
+        "en": ["Arrive with an open spirit and sense of wonder", "Bring layers for cool desert evenings", "Prepare your body with gentle daily practice", "Release the need to plan — let the desert guide you"],
+        "es": ["Llega con un espíritu abierto y sentido de asombro", "Trae capas para las noches frescas del desierto", "Prepara tu cuerpo con práctica diaria suave", "Suelta la necesidad de planificar — deja que el desierto te guíe"]
+      },
+      "receiving": {
+        "en": "The desert has always been a place of revelation. In its silence, the noise of the world falls away, and what remains is you — vast, luminous, and deeply alive. This retreat is an invitation to walk into that silence, to let the sand hold your footprints and the stars witness your becoming. You are already on your way home.",
+        "es": "El desierto siempre ha sido un lugar de revelación. En su silencio, el ruido del mundo se desvanece, y lo que queda eres tú — vasto/a, luminoso/a y profundamente vivo/a. Este retiro es una invitación a caminar hacia ese silencio, a dejar que la arena sostenga tus huellas y las estrellas sean testigos de tu transformación. Ya estás en camino a casa."
+      }
     }
   ]
 }
