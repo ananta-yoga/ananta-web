@@ -1,6 +1,17 @@
 {
   "events": [
     {
+      "id": "evt-cacao-ceremony",
+      "type": "Ceremony",
+      "title": { "en": "Sacred Cacao Ceremony", "es": "Ceremonia Sagrada de Cacao" },
+      "description": { "en": "Open your heart with the ancient medicine of ceremonial cacao. A sacred evening of intention, connection, and gentle sound to honor the wisdom of this ancestral plant.", "es": "Abre tu corazón con la medicina ancestral del cacao ceremonial. Una velada sagrada de intención, conexión y sonido suave para honrar la sabiduría de esta planta ancestral." },
+      "date": "2026-03-01",
+      "time": "18:00–20:00",
+      "place": "Ananta Studio",
+      "reserveLink": "https://wa.me/50672511368?text=I%20want%20to%20reserve%20Sacred%20Cacao%20Ceremony%20March%201",
+      "blogLink": "/blog/sacred-cacao-heart-opening-ceremony"
+    },
+    {
       "id": "evt-001",
       "type": "Sound Bath",
       "title": { "en": "New Moon Sound Journey", "es": "Viaje de Sonido de Luna Nueva" },
